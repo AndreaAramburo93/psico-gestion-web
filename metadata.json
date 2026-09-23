@@ -1,0 +1,6 @@
+{
+  "name": "Psico_Gestión - Plataforma de Salud Mental & Tele-psicología",
+  "description": "Sistema clínico integral de gestión terapéutica, citas de pacientes, agenda clínica y automatización de recordatorios con base de datos MongoDB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

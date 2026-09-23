@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #ecfdf8;
+  --color-surface-dim: #cdded9;
+  --color-surface-bright: #ecfdf8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #e6f7f2;
+  --color-surface-container: #e0f2ed;
+  --color-surface-container-high: #dbece7;
+  --color-surface-container-highest: #d5e6e1;
+  --color-surface-variant: #d5e6e1;
+  
+  --color-on-surface: #0f1e1c;
+  --color-on-surface-variant: #404945;
+  --color-inverse-surface: #243330;
+  --color-inverse-on-surface: #e3f5ef;
+  
+  --color-outline: #707975;
+  --color-outline-variant: #c0c8c4;
+  --color-surface-tint: #39675a;
+  
+  --color-primary: #245347;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #3d6b5e;
+  --color-on-primary-container: #b8e9d9;
+  --color-primary-fixed: #bbeddc;
+  --color-primary-fixed-dim: #a0d1c1;
+  --color-on-primary-fixed: #002019;
+  --color-on-primary-fixed-variant: #204f43;
+  --color-inverse-primary: #a0d1c1;
+  
+  --color-secondary: #4e5e7f;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #c7d7fd;
+  --color-on-secondary-container: #4d5d7e;
+  --color-secondary-fixed: #d7e2ff;
+  --color-secondary-fixed-dim: #b6c7ec;
+  --color-on-secondary-fixed: #091b38;
+  --color-on-secondary-fixed-variant: #374766;
+  
+  --color-tertiary: #7a3625;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #974d3b;
+  --color-on-tertiary-container: #ffd6cc;
+  --color-tertiary-fixed: #ffdad2;
+  --color-tertiary-fixed-dim: #ffb4a2;
+  --color-on-tertiary-fixed: #3c0800;
+  --color-on-tertiary-fixed-variant: #753322;
+  
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+  
+  --font-headline: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --spacing-gutter: 1.5rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ecfdf8;
+  color: #0f1e1c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-headline {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c8c4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #707975;
+}
